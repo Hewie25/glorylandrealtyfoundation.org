@@ -37,6 +37,17 @@
   <section class="section">
     <div class="container" style="display:grid; grid-template-columns:1fr 1fr; gap:2.5rem;">
       <div>
+        <h2 style="margin-bottom:1rem;">Send a message</h2>
+        <p style="color:var(--text-muted); margin-bottom:1rem;">Kindly fill up the form with any information you wish to pass on, and our team will reach out to you shortly. Thank you!</p>
+        <form action="mailto:info@glorylandrealtyfoundation.org" method="post" enctype="text/plain" style="display:grid; gap:0.9rem;">
+          <label>Name<br><input type="text" name="name" required style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;"></label>
+          <label>Email<br><input type="email" name="email" required style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;"></label>
+          <label>Subject<br><input type="text" name="subject" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;"></label>
+          <label>Message<br><textarea name="message" rows="5" required style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:6px;"></textarea></label>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div><br/><br/>
+      <div>
         <h2 style="margin-bottom:1rem;">Get in touch</h2>
         <p><strong>Phone / WhatsApp:</strong> <a href="tel:+233277566563">(+233) 277 566 563</a></p>
         <p><strong>Email:</strong> <a href="mailto:info@glorylandrealtyfoundation.org">info@glorylandrealtyfoundation.org</a></p>
